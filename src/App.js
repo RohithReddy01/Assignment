@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './App.css'; 
+import LeftPanel from './LeftPanel';
+import UpperRight from './UpperRight';
+import './upperright.css';
+// import MiddleRight from './MiddleRight';
+import './leftpanel.css'; 
+import BottomRight from './BottomRight';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="page-container">
+      <LeftPanel />
+      <div className="content">
+        <div className="upper-right">
+          <UpperRight/>
+        </div>
+        <div className="middle-right">
+          {/* <MiddleRight/> */}
+        </div>
+        <div className="bottom-right">
+          <BottomRight/>
+        </div>
+      </div>
     </div>
   );
 }

@@ -1,0 +1,54 @@
+/* Add this to your CSS file for styling the BottomRight component */
+/* Adjust the styles as needed for your design */
+
+.bottom-right {
+    background-color: rgba(0, 0, 0, 0.098);
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .heading {
+    font-weight: bold;
+  }
+  
+  .search input {
+    width: 150px;
+  }
+  
+  .last-30-days {
+    cursor: pointer;
+  }
+  
+  .table {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 5px 0;
+  }
+  
+  .header-row {
+    font-weight: bold;
+    border-bottom: 2px solid #000;
+  }
+  
+  .cell {
+    flex: 1;
+    text-align: center;
+  }
+  
+  /* You can adjust the styles to fit your design preferences. */
+  

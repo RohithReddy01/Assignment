@@ -1,0 +1,41 @@
+/* left-panel.css */
+
+/* Style for the left panel container */
+.left-panel {
+    width: 20%; /* Adjust the width as needed */
+    background-color: blueviolet; /* Add your desired background color */
+    border: 1px solid #ccc; /* Add borders or other styling */
+  
+    /* You can also add other styling properties like padding, margin, etc. */
+  }
+  
+  /* Style for the header */
+  header {
+    background-color: blue; /* Header background color */
+    color: #fff; /* Header text color */
+    padding: 10px; /* Adjust padding as needed */
+    text-align: center; /* Center text within the header */
+  }
+  
+  /* Style for main heading and subheading items */
+  .main-heading,
+  .sub-heading-item {
+    padding: 10px; /* Add padding as needed */
+    cursor: pointer; /* Show pointer cursor for clickable items */
+    border-bottom: 1px solid #ddd; /* Add a separator between items */
+    display: flex; /* Align items horizontally */
+    justify-content: space-between; /* Space between text and arrow */
+  }
+  
+  /* Style for subheading items when expanded */
+  .sub-heading-item.expanded {
+    background-color:purple; /* Background color when expanded */
+  }
+  
+  /* Style for the footer */
+  .footer {
+    padding: 10px; /* Adjust padding as needed */
+    text-align: center; /* Center text within the footer */
+    border-top: 400px solid gray; /* Add a separator at the top of the footer */
+  }
+  
